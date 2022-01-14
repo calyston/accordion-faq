@@ -1,13 +1,21 @@
 import React, { useState } from 'react';
 import data from './Data';
-import singleQuestion from './Question';
+import SingleQuestion from './Question';
 import './App.css';
 
 function App() {
+  const [questions, setQuestions] = useState(data);
   return (
-    <div class="page-container">
+    <div className="page-container">
       <img src="./accordion.png" alt="accordion" />
       <h2>Accordion FAQ</h2>
+      <article className="info">
+        {
+          questions.map((question) => {
+            return <SingleQuestion key={question.id} {...question} />;
+          })
+        }
+      </article>
     </div>
   );
 }
