@@ -4,15 +4,15 @@ import { FaMinus, FaPlus } from 'react-icons/fa';
 const Question = ({ question, answer }) => {
   const [showAnswer, setShowAnswer] = useState(false);
   return (
-    <article className="question">
-      <header>
+    <article>
+      <header className="question">
         <h3>{question}</h3>
-        <button className="btn" onClick={() => setShowAnswer(!showAnswer)}>
+        <button onClick={() => setShowAnswer(!showAnswer)}>
           {showAnswer ? <FaMinus /> : <FaPlus />}
         </button>
       </header>
       {showAnswer && <p>{answer}</p>}
-    </article>
+    </article >
   )
 }
 

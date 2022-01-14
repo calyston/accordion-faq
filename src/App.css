@@ -101,6 +101,7 @@ li {
 .page-container {
   width: 90%;
   margin: auto;
+  text-align: center;
 }
 
 /* Tablet & Laptop View */
@@ -121,6 +122,7 @@ li {
 
 article {
   margin: 2.5rem 0;
+  text-align: left;
 }
 /* Links */
 
@@ -153,16 +155,13 @@ button:hover {
   background-color: lightskyblue;
 }
 
-/* Forms */
-
-form {
-  display: flex;
-  flex-direction: column;
+img {
+  width: 33%;
+  height: auto;
 }
 
-input, textarea {
-  border: 1px solid lightgrey;
-  padding: 0.5rem 1rem;
-  max-width: 400px;
-  margin: 0.5rem 0;
+.question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
