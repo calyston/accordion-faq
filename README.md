@@ -4,6 +4,8 @@ React FAQ page using the accordion style.
 
 ### Live Preview: 
 
+https://calyston-accordionfaq.netlify.app/
+
 ## Technologies Used
 React, CSS3, HTML5.
 
