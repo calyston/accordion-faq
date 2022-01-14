@@ -9,7 +9,7 @@ function App() {
     <div className="page-container">
       <img src="./accordion.png" alt="accordion" />
       <h2>Accordion FAQ</h2>
-      <article className="info">
+      <article>
         {
           questions.map((question) => {
             return <SingleQuestion key={question.id} {...question} />;

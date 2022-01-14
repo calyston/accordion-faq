@@ -4,10 +4,6 @@ React FAQ page using the accordion style.
 
 ### Live Preview: 
 
-
-## Key Features
-
-
 ## Technologies Used
 React, CSS3, HTML5.
 
