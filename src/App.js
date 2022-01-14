@@ -4,7 +4,7 @@ import SingleQuestion from './Question';
 import './App.css';
 
 function App() {
-  const [questions, setQuestions] = useState(data);
+  const [questions] = useState(data);
   return (
     <div className="page-container">
       <img src="./accordion.png" alt="accordion" />
