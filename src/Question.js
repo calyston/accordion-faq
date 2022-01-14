@@ -4,8 +4,11 @@ import { FaMinus, FaPlus } from 'react-icons/fa';
 const Question = ({ question, answer }) => {
   return (
     <article className="question">
-      <h3>{question}</h3>
-      <button className="btn"></button>
+      <header>
+        <h3>{question}</h3>
+        <button className="btn"></button>
+      </header>
+      <p>{answer}</p>
     </article>
   )
 }
